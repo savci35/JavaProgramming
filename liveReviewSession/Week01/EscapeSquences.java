@@ -1,9 +1,14 @@
 package Week01;
 
-public class EscapeSquences {
-/*
+import java.util.Scanner;
 
- */
+public class EscapeSquences {
+
+    public static void main(String[] args) {
+
+        Scanner scan =new Scanner(System.in);
+    }
+
 
 
 

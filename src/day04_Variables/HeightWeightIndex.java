@@ -15,7 +15,6 @@ public class HeightWeightIndex {
         System.out.println("HeightWeightIndex = " + HeightWeightIndex);
 
 
-
     }
 }
 /*

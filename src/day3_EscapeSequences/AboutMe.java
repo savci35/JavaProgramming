@@ -10,5 +10,26 @@ public class AboutMe {
         System.out.println("My favorite  quote is bla bla");
         System.out.println("My favorite TV show is \nwhite show");
 
+
+        int number = 100;
+        if (number >= 0 && number <= 100) {
+            System.out.println("Valid number");
+
+
+            if (number >= 50 && number <= 75) {
+                System.out.println("iyi");
+            }
+            if (number >75 && number <= 100){
+                System.out.println("çok iyi");
+
+
+        }  else {
+                System.out.println("failed");
+
+            }
+
+        } else {
+            System.out.println("Invalid number");
+        }
     }
 }

@@ -6,7 +6,6 @@ public class SalaryCalculator {
 
         // hourlyRate, weeklyHours
 
-
         int hourlyRate = 27;
         int weeklyHourly = 28;
         int numberofweeks=52;
@@ -17,7 +16,7 @@ public class SalaryCalculator {
 
        System.out.println("salary = $" + salary);
         System.out.println("weeklyHourly = " + weeklyHourly);// you can also print yor code as short. write : soutv
-        System.out.println("numberofweeks = " + numberofweeks);
+        System.out.println("numberOfWeeks = " + numberofweeks);
         System.out.println("hourlyRate = $" + hourlyRate);
 
 
