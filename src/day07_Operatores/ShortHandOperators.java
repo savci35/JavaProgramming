@@ -22,7 +22,7 @@ public class ShortHandOperators {
 
         System.out.println("word = " + word);
 
-word ="Cydeo";
+             word ="Cydeo";
 
         System.out.println("word = " + word);
 

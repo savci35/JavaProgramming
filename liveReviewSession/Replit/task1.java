@@ -1,4 +1,4 @@
-package tasks;
+package Replit;
 
 import java.util.Scanner;
 

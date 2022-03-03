@@ -21,7 +21,7 @@ back
 public class DaysInWeek {
     public static void main(String[] args) {
 
-        int number = 7;
+        int number = 10;
 
         switch (number) {//1,2,3,4,5,6,7
 

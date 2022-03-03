@@ -3,19 +3,23 @@ package day08_ifStatements;
 public class LogicalOperators {
     public static void main(String[] args) {
         String name = "Steven";
-        int age = 19;                                                             /* note for &&
+        int age = 19;
+        String citizen = "UK";
+                                                                                /* note for &&
+
                                                                                    false && false == false
                                                                                    false && true == false
                                                                                    true  && false == false
                                                                                    true  && true == true
 
                                                                                   */
-        String citizen = "UK";
+
 
         boolean isEligible = age >= 18 && citizen == "USA";
         //                   19>=18    "UK" =="USA"
         //                     true        false ====> false
         System.out.println(name + " is eligible to vote: " + isEligible);
+
         System.out.println("---------------------------------------------");
         String name2 = "Josh";
         int creditScore = 720;
@@ -39,9 +43,9 @@ int income =4000;
         int age3 = 2;
         char gender = 'F';
 
-        Boolean isEligible3= age>=18 && (gender=='F' || gender=='M');
-        //                    true    && ( true    || false)
-        //                     true  &&   true    == the result is true
+        Boolean isEligible3= age3>=18 && (gender=='F' || gender=='M');
+        //                    false    && ( true    || false)
+        //                     false  &&   true    == the result is false
 
         System.out.println("isEligible3 = " + isEligible3);
 

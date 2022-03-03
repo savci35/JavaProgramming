@@ -3,14 +3,14 @@ package day07_Operatores;
 public class RelationalOperators {
     public static void main(String[] args) {
 
-        //  < ,=< ,> ,=>
+        //  < ,<= ,> ,>=
 
 boolean result = 20>40; //false
 boolean result2 = 20>10; //true
         System.out.println("result = " + result);
         System.out.println("result2 = " + result2);
 
-        boolean result3 = 100>=100; // 100 is bigger than 100 but equal because o this true
+        boolean result3 = 100>=100; // 100 is not bigger than 100 but equal because o this true
         System.out.println("result3 = " + result3);
 
         boolean result4 = 300>=500; //eighter 500 is not bigger than 300 nor equal because o this false
@@ -65,13 +65,13 @@ boolean result2 = 20>10; //true
         // "Hello World" == "hello World" false
         System.out.println("-------------------------------------");
 
-        boolean result11 = 100!=200; //true
+        boolean result11 = 100 != 200; //true
         System.out.println("result11 = " + result11);
 
-        boolean result12= "Java"!="Break"; //true
+        boolean result12= "Java" != "Break"; //true
         System.out.println("result12 = " + result12);
 
-        boolean result13=300  !=300; //false;
+        boolean result13=300  != 300; //false;
         System.out.println("result13 = " + result13);
 
     }

@@ -39,16 +39,19 @@ int b= 100;
         System.out.println(++s); //46 pre increment
         System.out.println(s++); //46 post increment first value is the same
         System.out.println(s); //47  second increases by 1
+        System.out.println("------------------------------------------------------");
 
         int z = 45;
         System.out.println(--z); //44
         System.out.println(z--); //44
         System.out.println(z); //43
+        System.out.println("------------------------------------------------------");
 
         int k =25;
 
         System.out.println(++k);//26
         System.out.println(--k);// 25
+        System.out.println("------------------------------------------------------");
 
         int m =25;
 

@@ -1,14 +1,37 @@
 package day04_Variables;
 
+import java.util.Scanner;
+
 public class HeightWeightIndex {
 
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter yor height");
+        double height = scan.nextDouble();
+        System.out.println("Enter yor weight");
+        double weight = scan.nextDouble();
 
-        double height = 1.74;
-        double weight = 80;
 
-        double HeightWeightIndex = weight / (height * height);
+        double HeightWeightIndex = weight/ (height * height);
+
+        if (HeightWeightIndex > 40) {
+            System.out.println("you are morbid obese");
+
+        } else if (HeightWeightIndex > 30 && HeightWeightIndex < 39.9) {
+            System.out.println("you are obese");
+
+        } else if (HeightWeightIndex > 25 && HeightWeightIndex < 29.9) {
+            System.out.println(" you are extra weight");
+
+        } else if (HeightWeightIndex > 18.5 && HeightWeightIndex < 24.5) {
+            System.out.println(" you are normal weight");
+        } else {
+            System.out.println(" you are weak");
+        }
+
+
+
 
         System.out.println("weight =kg " + weight);
         System.out.println("height =m " + height);

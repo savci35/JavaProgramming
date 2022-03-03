@@ -12,7 +12,7 @@ int subtraction = firstNumber - secondNumber;
 int multiply = firstNumber * secondNumber;
 */
 
-// 100 + 50 = 15
+// 100 + 50 = 150
         System.out.println(firstNumber +"+"+ secondNumber + "="+ (firstNumber + secondNumber) );
                                                                         // you can write additional insted of (firstNumber + secondNumber)
 // 100 * 50 = 5000
@@ -22,6 +22,18 @@ int multiply = firstNumber * secondNumber;
 // 100 - 50 = 50
         System.out.println(firstNumber+"-"+ secondNumber+ "=" + (firstNumber - secondNumber));
                                                                        // you can write multiply insted of (firstNumber * secondNumber)
+
+
+        System.out.println("-------------------------------------------------");
+
+//     I ripeded it
+
+        System.out.println(firstNumber+"+"+secondNumber+"="+(firstNumber+secondNumber));
+        System.out.println(firstNumber+"*"+secondNumber+"="+(firstNumber*secondNumber));
+        System.out.println(firstNumber+"-"+secondNumber+"="+(firstNumber-secondNumber));
+        System.out.println(firstNumber+"/"+secondNumber+"="+(firstNumber/secondNumber));
+
+
 
 
     }

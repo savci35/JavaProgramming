@@ -6,7 +6,7 @@ public class Initials {
 
     public static void main(String[] args) {
 
-        Scanner  scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter your first name");
         String firstName = scan.next();
@@ -14,10 +14,10 @@ public class Initials {
         System.out.println("Enter your last name");
         String lastName = scan.next();
 
-       char f = firstName.charAt(0);
-char l =lastName.charAt(5);
+        char f = firstName.charAt(0);
+        char l = lastName.charAt(5);
 
-String initial = ""+f+l;
+        String initial = "" + f + l;
 
         System.out.println("initial = " + initial);
 
